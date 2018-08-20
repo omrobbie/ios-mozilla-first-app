@@ -12,6 +12,7 @@
 		FC693FE821296F8A002F7153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC693FE621296F8A002F7153 /* Main.storyboard */; };
 		FC693FEA21296F8B002F7153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC693FE921296F8B002F7153 /* Assets.xcassets */; };
 		FC693FED21296F8B002F7153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC693FEB21296F8B002F7153 /* LaunchScreen.storyboard */; };
+		FC693FF521297F46002F7153 /* HitungViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC693FF421297F46002F7153 /* HitungViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FC693FE921296F8B002F7153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC693FEC21296F8B002F7153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC693FEE21296F8B002F7153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC693FF421297F46002F7153 /* HitungViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitungViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		FC693FD621296F89002F7153 = {
 			isa = PBXGroup;
 			children = (
+				FC693FF421297F46002F7153 /* HitungViewController.swift */,
 				FC693FE121296F8A002F7153 /* firstApp */,
 				FC693FE021296F8A002F7153 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC693FF521297F46002F7153 /* HitungViewController.swift in Sources */,
 				FC693FE521296F8A002F7153 /* ViewController.swift in Sources */,
 				FC693FE321296F8A002F7153 /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3SMXMP42NY;
 				INFOPLIST_FILE = firstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3SMXMP42NY;
 				INFOPLIST_FILE = firstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
